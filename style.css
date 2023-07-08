@@ -70,5 +70,44 @@ nav ul li a{
     font-size: 18px;
     margin: 5px 0px 30px 10px;
 }
-/* end of the header section *
-services section start/
+/* /* end of the header section  */
+/* services section start */
+
+.about-me{
+    background-color: antiquewhite;
+    max-width: 1140px;
+    margin: 50px auto;
+    padding: 80px;
+
+}
+.heading-tittle{
+    width: 800px;
+    text-align: center;
+    margin: 0 auto;
+}
+.heading-tittle h2{
+    margin: 25px 0px;
+}
+.about-info{
+    width: 1040px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 0px;
+    text-align: center;
+}
+/* services secion css */
+
+.card-container{
+    width: 1140px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin: 40px auto;
+    column-gap: 23px;
+}
+.card-item{
+    padding: 25px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    background-color: #fff;
+}
