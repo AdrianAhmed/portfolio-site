@@ -1,0 +1,74 @@
+*{
+
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.btn{
+    padding: 15px 35px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #fd6e0a;
+    border: none;
+    border-radius: 5px;
+}
+header{
+    background-color: #FFF8F3;
+    background-image: url("images/header_bg.png"), url("images/developer.png");
+    background-repeat: no-repeat;
+    background-position: bottom right, top left;
+}
+.text-style{
+    color: #fd6e0a;
+}
+nav{
+    display: flex;
+    width: 1140px;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 10px 0px;
+}
+nav h1{
+    font-size: 50px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    margin-left: 50px;
+    list-style-type: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+.container{
+    width: 1140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+.container img{
+    width: 600px;
+    height: 580px;
+}
+.content-box h3 {
+    font-size: 30px;
+    margin: 10px;
+}
+.content-box h1 {
+    font-size: 50px;
+    margin: 5px 0px 20px 10px;
+}
+.content-box p {
+    font-size: 18px;
+    margin: 5px 0px 30px 10px;
+}
+/* end of the header section *
+services section start/
